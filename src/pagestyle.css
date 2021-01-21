@@ -1,0 +1,28 @@
+img {
+    border-radius: 50%;
+}
+
+.about-me-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.imgcontainer{
+    height: 150px;
+    width: 180px;
+}
