@@ -17,7 +17,7 @@ function App() {
       <div>
         <div className="nav-links margin-top-2-p font-size-16">
           <div>
-            <NavLink to="/" >
+            <NavLink exact={true} to="/" activeStyle={{ color: "red" }}>
               About me
             </NavLink>
           </div>

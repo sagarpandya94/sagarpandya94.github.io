@@ -67,13 +67,13 @@ const Academics = () => {
       />
       <CardContent className={cx(shadowStyles.root, styles.content)}>
         <h3 className={styles.title}>San Francisco State University</h3>
-        <Box color={'grey.800'} display={'flex'} alignItems={'center'} mb={2}>
-          <LocationOn className={styles.locationIcon} />
+        <Box color={'grey.800'} style={{ display:'flex', justifyContent:'center' }} mb={2} >
+          <LocationOn className={styles.locationIcon}/>
           <span>San Francisco, USA</span>
         </Box>
         <h4 className={styles.smalltitle}>Master's in Computer Science</h4>
         <Typography className={styles.bigfont}>
-          Coursework 
+          Related Coursework 
         </Typography>
         <Typography className={styles.smallerfont}>
         Software Engineering, Internet Application Design and Development, Algorithms, Cloud Computing, Mobile Application Development, Advanced Operating System
@@ -96,13 +96,13 @@ const Academics = () => {
       />
       <CardContent className={cx(shadowStyles.root, styles.content)}>
         <h3 className={styles.title}>Symbiosis Institute of Technology</h3>
-        <Box color={'grey.800'} display={'flex'} alignItems={'center'} mb={2}>
+        <Box color={'grey.800'} style={{ display:'flex', justifyContent:'center' }} mb={2}>
           <LocationOn className={styles.locationIcon} />
           <span>Pune, India</span>
         </Box>
         <h4 className={styles.smalltitle}>Bachelor's in Computer Science</h4>
         <Typography className={styles.bigfont}>
-          Coursework 
+          Related Coursework 
         </Typography>
         <Typography className={styles.smallerfont}>
             Data Structures, Java and Web Technologies, Design and Analysis of Algorithms, Advanced Database Management, Distributed Systems, Software Quality and Assurance
@@ -126,13 +126,13 @@ const Academics = () => {
       />
       <CardContent className={cx(shadowStyles.root, styles.content)}>
         <h3 className={styles.title}>Nirma Institute of Diploma Studies</h3>
-        <Box color={'grey.800'} display={'flex'} alignItems={'center'} mb={2}>
+        <Box color={'grey.800'} style={{ display:'flex', justifyContent:'center' }} mb={2}>
           <LocationOn className={styles.locationIcon} />
           <span>Ahmedabad, India</span>
         </Box>
         <h4 className={styles.smalltitle}>Diploma in Computer Science</h4>
         <Typography className={styles.bigfont}>
-          Coursework 
+          Related Coursework 
         </Typography>
         <Typography className={styles.smallerfont}>
             Programming Methodology, Object Oriented Concepts and Programming, Internet Programming, Data Security, 
