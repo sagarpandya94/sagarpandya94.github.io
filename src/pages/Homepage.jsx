@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="container about-me-flex margin-top-2-p">
       {/* <h1>Welcome to Sagar Pandya Portfolio!!</h1> */}
       <div><img src={picture} alt="display"/></div>
-      <div className="font-size-14">
+      <div className="font-size-14 text-white">
         <h1>Sagar Pandya</h1>
         <p> <h2>Full Stack Developer | Quality Engineering | Software Engineer </h2></p>
         <p> I have completed Master's in Computer Science from San Francisco State University. I am currently seeking full-time opportunities in Software Engineering and Quality Engineering area.</p>
