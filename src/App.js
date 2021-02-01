@@ -123,25 +123,25 @@ function App() {
       <div className="text">
         <div className="nav-links margin-top-2-p font-size-16">
           <div>
-            <NavLink exact={true} to="/" activeStyle={{ color: "red" }}>
+            <NavLink className="text-golden" exact={true} to="/" activeStyle={{ color: "seagreen" }}>
               About me
             </NavLink>
           </div>
 
           <div>
-            <NavLink to="/work" activeStyle={{ color: "red" }}>
+            <NavLink className="text-golden" to="/work" activeStyle={{ color: "seagreen" }}>
               Work Experience
             </NavLink>
           </div>
 
           <div>
-            <NavLink to="/academics" activeStyle={{ color: "red" }}>
+            <NavLink className="text-golden" to="/academics" activeStyle={{ color: "seagreen" }}>
               Academics
             </NavLink>
           </div>
 
           <div>
-            <NavLink to="/skillset" activeStyle={{ color: "red" }}>
+            <NavLink className="text-golden" to="/skillset" activeStyle={{ color: "seagreen" }}>
               Skillset
             </NavLink>
           </div>

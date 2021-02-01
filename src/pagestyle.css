@@ -30,3 +30,15 @@ img {
 .text-white{
     color: white;
 }
+
+.text-golden{
+    color: gold;
+}
+
+.text-golden:hover{
+    color: seagreen;
+}
+
+.font-size-24{
+    font-size: 24px;
+}

@@ -2,6 +2,9 @@ import React from "react";
 import picture from "../displaypicture.png";
 import { MdEmail } from "react-icons/md";
 import { MdPhone } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import { SiLinkedin } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 import "../pagestyle.css";
 
 const HomePage = () => {
@@ -15,6 +18,11 @@ const HomePage = () => {
         <p> I have completed Master's in Computer Science from San Francisco State University. I am currently seeking full-time opportunities in Software Engineering and Quality Engineering area.</p>
         <p> <MdEmail /> sagarpandy94@gmail.com </p>
         <p> <MdPhone /> (415)712-5855</p>
+        <p> <a href="https://www.linkedin.com/in/sagarpandya94/" className="text-golden font-size-24"> <SiLinkedin /> </a>
+        <a href="https://github.com/sagarpandya94" className="text-golden font-size-24"> <FaGithub /> </a></p>
+        <NavLink className="text-golden" to="/resume - Sagar Pandya.pdf" target="_blank" download>
+              Download resume
+        </NavLink>
       </div>
     </div>
   );
